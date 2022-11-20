@@ -13,7 +13,7 @@ connection.starttls()
 
 print("Logging in...")
 time.sleep(5)
-connection.login('maguswyvern@gmail.com', 'rboizfpamhwgqmob')
+connection.login('maguswyvern@gmail.com', '')
 
 connection.sendmail('maguswyvern@gmail.com', 'maguswyvern@gmail.com', 'Subject: Test\n\nThis is a test message.')
 
